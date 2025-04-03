@@ -11,7 +11,7 @@ if [ -f "GIProxy" ]; then
     sleep 1
     echo -e "${GREEN}Getting GIProxy...${ENDCOLOR}"
 fi
-wget -q https://raw.githubusercontent.com/demsdivo11/giproxy-installer/main/GIProxy
+wget -q https://github.com/demsdivo11/giproxy-installer/raw/main/start.sh
 sleep 1
 echo -e "${GREEN}GIProxy is now Installed.${ENDCOLOR}"
 echo -e "${GREEN}Execute GIProxy with this command: ./GIProxy${ENDCOLOR}"
